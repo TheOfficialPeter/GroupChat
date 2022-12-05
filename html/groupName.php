@@ -6,6 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Inter&family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 <body>
+    <script src="../js/main.js"></script>
     <div id="nav">
         <h1 id="nav-title">
             Pieter's group chat app
@@ -34,25 +35,17 @@
     
     <?php
         if (isset($_GET['join'])) {
-            $conn = new mysqli('localhost', 'admin', 'admin');
 
-            try {
-                $result = mysqli_select_db($conn, $_GET['join']);
-                //echo "joined";
-                header("Location: ./name.php");
-            }
-            catch (exception $e) {
-                //echo $e;
-            }
         }
+
+        // search for pin as database name
     ?>
 
-    <script src="../js/main.js"></script>
     <form method="get" action="">
-        <button onclick="savePin()" name="join" value="" id="joinBtn" type="submit">
-            <span id="joinbtntext">JOIN</span>
+        <button name="join" value="join" id="joinBtn" type="submit">
+            <span id="joinBtnText">Join</span>
         </button>
     </form>
-    <h1 id="createbtn"><u><a href="./create.php">create group</a></u></h1>
+    <h1 id="createBtn"><u>create group</u></h1>
 </body>
 </html>
