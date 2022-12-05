@@ -7,7 +7,7 @@ I am planning on making a decentralized version of this chat app, but for now it
 ### Ways to improve:
 - Add lazy loading for messages (like discord) ex: when scrolling upwards, the messages start loading in from the past.<br/>
 - Improve error messages (use AJAX and get returns from HTTP calls, html forms has its limitations) 
-- Add a password for private servers. We don't want another 2020 zoom incident lol
+- Add a password-after-pin for private servers. We don't want another 2020 zoom incident lol
 
 
 ## Installation
