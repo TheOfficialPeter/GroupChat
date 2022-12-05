@@ -10,7 +10,15 @@
     <script src="../js/name.js"></script>
     <div id="nav">
         <h1 id="nav-title">
-            Pieter's group chat app
+            <?php
+                $db = $_COOKIE['pin'];
+                $conn = new mysqli("localhost", "admin", "admin", $db);
+
+                $result = $conn->query("SELECT * FROM info");
+
+                $row = mysqli_fetch_row($result);
+                echo $row[0];
+            ?>
         </h1>
     </div>
     <h1 id="page-title">

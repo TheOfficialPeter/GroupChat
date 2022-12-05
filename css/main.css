@@ -3,12 +3,28 @@ body {
     background-color: #171822;
 }
 
+@keyframes load {
+    0% {
+        background-color: #171822;
+    }
+    50% {
+        background-color: #1f202e;
+    }
+    100% {
+        background-color: #171822;
+    }
+}
+
 a {
     text-decoration: none;
     color: rgba(255,255,255,.25);
 }
 
 #nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: fit-content;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,7 +47,7 @@ a {
     color: white;
     font-weight: 300;
     letter-spacing: 0.1em;
-    margin-top: 5%;
+    margin-top: 12%;
     text-align: center;
 }
 
@@ -72,6 +88,17 @@ a {
     border-radius: 500px;
 }
 
+#joinBtn2 {
+    margin-top: 75px;
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    left: calc(50% - 250px/2);
+    background-color: #242739;
+    border: 0;
+    border-radius: 500px;
+}
+
 #joinBtnText {
     color: white;
     font-weight: 1000;
@@ -93,6 +120,16 @@ a {
     color: rgba(255,255,255,.2);
     font-weight:  400;
     padding-top: 110px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#createBtn2 {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: rgba(255,255,255,.2);
+    font-weight:  400;
+    padding-top: 130px;
     cursor: pointer;
     text-align: center;
 }
@@ -144,4 +181,57 @@ a {
     letter-spacing: 0.1em;
     font-family: 'Inter';
     color: rgba(255,255,255,.1);
+}
+
+#typeSomething {
+    position: fixed;
+    bottom: 20px;
+    border: 1.5px solid rgba(255,255,255,.5);
+    background-color: #232531;
+    left: 50px;
+    right: 150px;
+    border-radius: 10px;
+
+}
+
+#typeSomethingText {
+    margin-left: 20px;
+    width: 95%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    letter-spacing: 0.2em;
+    font-size: 25px;
+    outline: 0;
+    border: 0;
+    color: rgba(255,255,255,.25);
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+#sendBtn {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    border-radius: 10px;
+    height: 70px;
+    border: 1.5px solid rgba(255,255,255,.5);
+    background-color: #232531;
+}
+
+#nav-code {
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255,255,255,.05);
 }

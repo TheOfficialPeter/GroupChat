@@ -42,7 +42,8 @@
                 header("Location: ./name.php");
             }
             catch (exception $e) {
-                //echo $e;
+                //echo "failed";
+                echo "<div style='transition: all 1s; background-color: rgba(0,0,0,.25); position: absolute; bottom: 0; left: 0; right: 0; font-size: 30px; color: rgba(255,255,255,.2); padding-top: 10px; padding-bottom: 10px; text-align: center; font-family: Roboto; font-weight: 100;'>Group not found!</div>";
             }
         }
     ?>

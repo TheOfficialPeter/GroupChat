@@ -23,5 +23,5 @@ window.onload = function() {
 }
 
 function savePin() {
-    window.localStorage.setItem("pin", document.getElementById("joinBtn").value)
+    document.cookie = "pin="+document.getElementById("joinBtn").value;
 }
