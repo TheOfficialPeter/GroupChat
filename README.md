@@ -5,4 +5,4 @@ It uses a kahoot based joining system for joining chat groups which is a "room" 
 I am planning on making a decentralized version of this chat app, but for now it runs on a web server using PHP and MYSQL for backend.
 
 ### Possible additions:
-Add lazy loading for messages (almost like discord does) ex: when scrolling upwards, the messages start loading in from the past.
+Add lazy loading for messages (like discord) ex: when scrolling upwards, the messages start loading in from the past.
