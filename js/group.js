@@ -14,6 +14,8 @@ window.onload = function () {
 		}
 		return "";
 	}
-
+	
+	const scrollingElement = (document.scrollingElement || document.body);
+	scrollingElement.scrollTop = scrollingElement.scrollHeight;
 	document.getElementById("nav-code").innerText = "code: " + getCookie("pin");
 };
