@@ -4,7 +4,7 @@
 <link href="../css/main.css" rel="stylesheet"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Inter&family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Inter:wght@100;400&family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 <body>
     <script src="../js/loading.js"></script>
     <script src="../js/group.js"></script>
@@ -15,7 +15,12 @@
 
     <?php
         $db = $_COOKIE['pin'];
+        $name = $_COOKIE['name'];
         $conn = new mysqli("localhost", "admin", "admin", $db);
+
+        function postMessage($msg) {
+            $conn->query("INSERT INTO messages VALUES('$msg', '$name')");
+        }
 
         $result = $conn->query("SELECT * FROM messages");
 
@@ -24,8 +29,19 @@
             $message = $row["text_"];
 
             // create message elements
+            
         }
     ?>
+
+    <div id="messageBox">
+        <div id="messageName">
+            Name here
+        </div>
+        <div id="messageBody">
+            MessageMessageMessageMessageMessageMessage
+        </div>
+        <img src="" id="ticks"/>
+    </div>
 
     <div id="nav">
         <h1 id="nav-code"></h1>
