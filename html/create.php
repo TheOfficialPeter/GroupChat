@@ -32,7 +32,7 @@
                 $conn = new mysqli('localhost', 'admin', 'admin');
 
                 try {
-                    $conn->query("SELECT * FROM " . $_POST['create'] . ";");
+                    $conn->query("USE DATABASE " . $_POST['create'] . ";");
                 }
                 catch (Exception $e) {
                     try {
@@ -64,7 +64,7 @@
                 $conn = new mysqli('localhost', 'admin', 'admin');
 
                 try {
-                    $result = $conn->query("SELECT TOP 1 FROM ".$code);
+                    $result = $conn->query("USE DATABASE ".$code);
                     genCode();
                 }
                 catch (Exception $e) {
