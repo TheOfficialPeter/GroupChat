@@ -28,3 +28,11 @@ I am planning on making a decentralized version of this chat app, but for now it
 5. Click on "Go" at the bottom
 
 <b>And that's it!</b>
+
+## Sneak peeks
+
+![image](https://user-images.githubusercontent.com/57006688/224471715-3437bdbb-00e9-4715-9441-311a496cffec.png)
+![image](https://user-images.githubusercontent.com/57006688/224471726-aa80fc15-4235-401b-aea3-d3d1466db453.png)
+![image](https://user-images.githubusercontent.com/57006688/224471732-09d6ab5c-5170-40e8-8dbf-a2e13fd28a0c.png)
+![image](https://user-images.githubusercontent.com/57006688/224471738-8c99c56d-4d8c-4cd5-b6d3-7d24d1dab87c.png)
+
