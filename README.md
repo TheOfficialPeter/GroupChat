@@ -18,7 +18,6 @@ I am planning on making a decentralized version of this chat app, but for now it
 4. Start the xampp Apache and MySQL server
 
 ### MySQL setup
-<b>(can't promise security here, call an expert if you need it to be secure)</b><br/>
 1. Go to the "User Accounts" tab at the top.
 2. Click on "Add user account".
 3. Username = admin<br/>
