@@ -1,15 +1,19 @@
 # GroupChat
 
-Just a side project I wanted to make. A chat app like discord with 99% less features. Really basic, but functional.
-It uses a kahoot based joining system for joining chat groups which is a "room" code/pin. New "rooms" can also be created with ease. 
-I am planning on making a decentralized version of this chat app, but for now it runs on a web server using PHP and MYSQL for backend.
+**What is GroupChat:question:**
 
-### Ways to improve:
-- Add lazy loading for messages (like discord) ex: when scrolling upwards, the messages start loading in from the past.<br/>
-- Improve error messages (use AJAX and get returns from HTTP calls, html forms has its limitations) 
-- Add a password-after-pin for private servers. We don't want another 2020 zoom incident lol
-- Make chat messages sent by you appear on the opposite side of the screen.
+Really basic university project.
+Create chat rooms
+and chat with friends
 
+**Tools I used to complete this project 🛠️**
+
+- Xammp
+- MySQL
+- PHP
+- HTML
+- CSS
+- JS
 
 ## Installation
 1. Install xampp.
@@ -26,9 +30,9 @@ I am planning on making a decentralized version of this chat app, but for now it
 4. Scroll down to Global priviledges and click on select all
 5. Click on "Go" at the bottom
 
-<b>And that's it!</b>
+**And that's it 😄**
 
-## Sneak peeks
+## Preview
 
 ![image](https://user-images.githubusercontent.com/57006688/224471715-3437bdbb-00e9-4715-9441-311a496cffec.png)
 ![image](https://user-images.githubusercontent.com/57006688/224471726-aa80fc15-4235-401b-aea3-d3d1466db453.png)
