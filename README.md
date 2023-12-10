@@ -1,6 +1,6 @@
 # GroupChat
 
-**What is GroupChat:question:**
+**What is GroupChat ❓**
 
 Really basic university project.
 Create chat rooms
